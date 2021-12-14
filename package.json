@@ -1,0 +1,34 @@
+{
+  "name": "homebridge-zhimi-humidifier",
+  "version": "0.4.0",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "engines": {
+    "node": ">=10.17.0",
+    "homebridge": ">=1.3.0"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rimraf ./dist && tsc",
+    "watch": "pnpm build && nodemon",
+    "format": "prettier --write src"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "homebridge": "^1.3.6",
+    "homebridge-config-ui-x": "^4.41.2",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.4.1",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "jsmodbus": "^4.0.6",
+    "miio": "^0.15.6"
+  }
+}
