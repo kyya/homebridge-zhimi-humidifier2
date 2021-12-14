@@ -1,4 +1,6 @@
-# homebridge-zhimi-humidifier
+# homebridge-zhimi-humidifier2
+
+A typescript version of [homebridge-smartmi-humidifier2](https://www.npmjs.com/package/homebridge-smartmi-humidifier2) 
 
 Tested on [zhimi.humidifier.ca4](https://home.miot-spec.com/s/zhimi.humidifier.ca4)
 
@@ -10,7 +12,7 @@ Tested on [zhimi.humidifier.ca4](https://home.miot-spec.com/s/zhimi.humidifier.c
 3. Install packages.
 
 ```
-npm install -g homebridge-smartmi-humidifier2
+npm install -g homebridge-zhimi-humidifier
 ```
 
 ```
@@ -18,11 +20,8 @@ npm install -g homebridge-smartmi-humidifier2
     {
       "accessory": "MiHumidifier2",
       "name": "zhimi.humidifier.ca4",
-      "ip": "192.168.1.3",
-      "token": "12345678912345678912345678912345",
-      "showTemperatureDisable": false,
-      "showTemperatureSensorName": "temperature",
-      "updateTimer": 60
+      "ip": "<replace with your device ip>",
+      "token": "<replace_with_your_token>"
     }
   ]
 ```
