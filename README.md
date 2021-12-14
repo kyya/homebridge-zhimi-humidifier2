@@ -12,7 +12,7 @@ Tested on [zhimi.humidifier.ca4](https://home.miot-spec.com/s/zhimi.humidifier.c
 3. Install packages.
 
 ```
-npm install -g homebridge-zhimi-humidifier
+npm install -g homebridge-zhimi-humidifier2
 ```
 
 ```
