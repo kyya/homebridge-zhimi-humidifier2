@@ -1,5 +1,7 @@
 # homebridge-zhimi-humidifier2
 
+<a href="https://npmjs.com/package/homebridge-zhimi-humidifier2"><img src="https://img.shields.io/npm/v/homebridge-zhimi-humidifier2.svg" alt="npm package"></a>
+
 A typescript version of [homebridge-smartmi-humidifier2](https://www.npmjs.com/package/homebridge-smartmi-humidifier2) 
 
 Tested on [zhimi.humidifier.ca4](https://home.miot-spec.com/s/zhimi.humidifier.ca4)
